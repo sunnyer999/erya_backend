@@ -1,0 +1,17 @@
+# Spring properties
+spring:
+  application:
+    name: schedule-service  # Identify this application
+
+# Map the error path to error template
+error:
+  path=/error
+
+server:
+  port: 8082   # HTTP (Jetty) port
+
+# Log config
+logging:
+  level:
+    root: INFO
+  file: ./schedule-service.log

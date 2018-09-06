@@ -1,0 +1,14 @@
+# Spring properties
+spring:
+  application:
+    name: socketio-service  # Identify this application
+
+server:
+  port: 8084  # HTTP (Jetty) port
+  host: localhost
+
+# Log config
+logging:
+  level:
+    root: INFO
+  file: ./schedule-service.log
